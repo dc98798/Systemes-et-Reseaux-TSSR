@@ -1,0 +1,248 @@
+Le modèle OSI (Open Systems Interconnection) est un modèle de référence pour la communication de réseau. Il définit 7 couches de protocoles, chacune ayant des fonctions spécifiques :
+--
+Couche physique : gère les aspects physiques de la communication, comme les connecteurs et les câbles. La couche physique est responsable de la transmission des bits sur le support physique.
+Couche de liaison de données : gère l'accès au support de transmission et la détection d'erreurs. La couche liaison de données est responsable de la transmission des trames entre des nœuds adjacents sur un réseau wan ou lan.
+Couche réseau est responsable du routage des paquets à travers des réseaux différents.
+La couche transport assure l'arrivée des paquets dans l'ordre et sans erreur, en échangeant les accusés de réception de données et en retransmettant les paquets perdus. La couche transport va gèrer le controle des flux et la transmission de données.
+La couche session permet d'établir, de maintenir et de terminer des sessions entre des applications.
+La couche presentation est responsable de la conversion des données à l'application sous une forme compréhensible. Elle est responsable aussi du chiffrement et compression.
+La couche appliations met à disposition des utilisateurs des services internet et applications.
+
+--
+Probleme : cause d'un ou des incidents
+
+Incident: evenement non planifié
+
+Un relais DHCP sert principamelent a joindre un serveur dhcp situé sur un autre reseau
+
+Centreon: alerte , surveillance et collecte
+
+Nslookup permet donc d'interroger les serveurs DNS pour obtenir les informations 
+
+Internet Protocol (IP) : est un ensemble de règles qui permettent la communication entre les ordinateurs d'un réseau.
+
+Le routage : détermination d'un chemin permettant de relier les 2 machines distantes;
+
+Certificat = document numérique qui lie une clé publique à l'identité d'une entité, vérifié par une autorité de certification, utilisé pour garantir l'authenticité, l'intégrité et la confidentialité des communications.
+
+Domaine de broadcast : aire logique ou on peut transmettre des donnee sans passer par un routeur
+
+Router on a stick : Un seul routeur est utilisé pour acheminer le traffic entre les vlan, grace a des sous interfaces
+
+Le switch permet permet de lire l'entete des trames ethernet pour trouver l'adresse mac de destination, pour pouvoir rediriger vers le bon port la trame
+
+Le NAT permet de traduire une adresse ip publique en ip privé pour que les ordinateurs puisse utiliser une seule adresse ip, celle de l'hote
+
+Le NAT (Network Address Translation) dans VirtualBox, permet à une machine virtuelle d'accéder à Internet en utilisant l'adresse IP de l'hôte
+
+LE protocole snmp permet de superviser et gerer les équipements reseaux, comme par ex les routeurs, switch... grace à des sondes.
+
+Syslog est un protocole de communication qui permet la collecte et transmission des messages journaux 
+
+Centreon est un logiciel qui permet la supervision des systemes informatique et reseaux 
+
+Les numéros de ports sont utilisés pour identifier les applications spécifiques à la couche transport, comme le port 80 pour HTTP et le port 22 pour SSH.
+
+HDLC (High-Level Data Link Control) : mécanisme qui va délimiter les trames, en ajoutant un controle d'erreurs (couche 2 osi)
+
+ARP (Address Resolution Protocol) est un protocole de communication réseau qui permet de faire la correspondance entre une adresse IP et une adresse MAC.
+
+ACL (Access Control List) désigne en sécurité informatique  une liste des adresses et ports autorisés ou interdits par un pare-feu.
+
+RAID (Redundant Array of Inexpensive Disks) est un système de stockage de données qui utilise plusieurs disques durs pour améliorer les performances et la sécurité des données
+
+PING : est un outil de diagnostic de réseau qui permet de tester la connectivité entre deux ordinateurs en envoyant des paquets de données à un hôte et en mesurant le temps d'aller-retour.
+
+IPCONFIG : permet d'afficher et de modifier la configuration réseau d'un PC
+
+TRACERT : est un utilitaire en ligne de commande utilisé pour afficher le chemin suivi par les paquets de données à destination d'un hôte sur un réseau.
+
+NSLOOKUP : est un utilitaire en ligne de commande utilisé pour obtenir des informations sur les noms de domaine et les adresses IP, notamment les informations sur les serveurs DNS et les entrées dans les zones DNS.
+
+Netstat : vous permet d’obtenir des statistiques sur toutes les connexions actives
+
+
+APPRENDRE A : Convertir une adresse ip en binaire, calculer des masques sous réseaux
+
+Un proxy inverse est un type de serveur, habituellement placé en frontal de serveurs web. Contrairement au serveur proxy qui permet à un utilisateur d'accéder au réseau Internet, le proxy inverse permet à un utilisateur d'Internet d'accéder à des serveurs internes
+Un serveur proxy est un serveur intermédiaire qui se place entre deux hotes qui et qui va contrôler et filtrer les demandes pour assurer la sécurité.
+
+La DMZ (zone démilitarisée) est une sous-réseau qui est isolé du reste du réseau pour des raisons de sécurité. Les serveurs dans la DMZ sont exposés à Internet et peuvent être accessibles depuis l'extérieur.
+Les serveurs et les périphériques qui se trouvent dans une DMZ sont protégés par un pare-feu qui les sépare des réseaux internes de l'entreprise.
+Cela permet de limiter les risques de sécurité en cas de compromission d'un serveur ou d'un périphérique de la DMZ, car les attaquants ne peuvent pas accéder aux autres parties du réseau.
+
+Une LAN (Local Area Network) est un réseau local qui relie des ordinateurs et des dispositifs dans un même lieu physique.
+
+Un VLAN (Virtual LAN) est une méthode de segmentation de réseau qui permet de diviser un réseau physique en plusieurs réseaux virtuels logiques.  (representation logique d'un reseau segmenté)
+
+Le routage Inter-VLAN est un processus qui permet de transférer du trafic réseau d'un VLAN à un autre à l'aide d'un routeur
+
+WAN (Wide Area Network) est un terme générique désignant un réseau informatique qui couvre une grande zone géographique. On peut dire que Internet est un grand type de WAN
+
+MAC (Media Access Control) est un identifiant unique de 48 bits assigné à chaque carte réseau.
+
+LLC : fiabilise le protocole MAC grace a un control d'erreur et controle de flux
+
+L'IP correspond à un numéro d'identification, qui est attribué à tout appareil connecté à un réseau informatique.
+
+VoIP : Voice over internet protocol est une technologie informatique qui permet de transmettre la voix sur des réseaux compatibles IP, via Internet ou des réseaux privés ou publics
+
+QoS : La QoS permet de prioriser le trafic VoIP sur le réseau, en garantissant un débit et une bande passante suffisants pour minimiser la latence, les pertes de paquets et les délais de transmission.
+
+Le DHCP (Dynamic Host Configuration Protocol) est un protocole réseau dont le rôle est d’assurer la configuration automatique des paramètres IP
+Le processus se fait généralement en quatre étapes : la demande, l'offre, la sélection et la confirmation.
+
+Un VPN (Virtual Private Network) est un réseau privé virtuel qui permet de connecter des ordinateurs ou des réseaux distants de manière sécurisée.
+
+Un Log est un fichier qui renferme l’historique de tous les événements qui se sont produits sur un ordinateur, un logiciel, un serveur,
+
+MySQL : est un système de gestion de base de données relationnelle (SGBDR) qui permet de stocker, de gérer et de manipuler des données. Il est souvent utilisé pour les sites web et les applications qui nécessitent un accès à des données structurées.
+--
+La fonction principale du BIOS et UEFI est de démarrer le systeme d'exploitation.
+Le BIOS est un logiciel qui se trouve sur la carte mère d'un ordinateur qui permet de configurer les paramètres de démarrage et d'accéder aux périphériques de l'ordinateur
+L’UEFI est une amélioration du BIOS. UEFI signifie Unified Extensible Firmware Interface. Il permet de faire fonctionner des disques de plus de ? TO, améliore la sécurité, concu pour les systemes en 64 bits
+
+x86-64 : permet à un processeur d’être compatible avec les anciens logiciels 32 bits en même temps que les nouveau logiciels sur 64 bits
+--
+(linux) La variable d'environnement PATH permet de définir la liste des répertoires qui contiennent des commandes et des programmes exécutables 
+--
+Un serveur proxy est un serveur qui sert d'intermédiaire entre un client et d'autres serveurs, permettant de contrôler et filtrer les échanges de données.
+Le reverse proxy est un serveur qui est utilisé pour que les utilisateur d'internet puisse acceder aux serveurs interne
+--
+La haute disponibilité a pour but de permettre le basculement automatique des VM vers un hôte actif en cas de panne de l’hôte qui les héberge
+La répartition de charge consiste, lorsqu’un hôte devient surchargé, à basculer automatiquement les VM sur un hôte plus disponible. 
+--
+L’hyperviseur de type 1 est un hyperviseur s’exécutant directement sur la plateforme matérielle (exemple Proxmox).
+L’hyperviseur de type 2 est un hyperviseur s’exécutant par dessus un système d’exploitation invité.
+--
+Dans la transmission synchrone, les données circulent en mode duplex sous forme de blocs ou de trames. (visio, conv telephonique...)
+Dans la transmission asynchrone, les données circulent en mode semi-duplex, 1 octet ou un caractère à la fois. (forums, lettre...)
+--
+Load balancing: Repartiteur de charge de travail d'un serveur
+Snapshot : C’est un instantanné de la configuration d’une machine virtuelle à un instant T. Cela permet de remédier à une erreur, en revenant à cet instant précis.
+sda2: premier disque et deuxieme partition sur linux; sdb1: deuxieme disque, 1er partition
+WDS et MDT: Service permettant d'effectuer le deploiement d'image
+WSUS permet aux administrateurs informatiques de déployer les dernières mises à jour de produits Microsof au sein d'un parc informatique.
+Une autorité de certification : attestent de l’identité de celui qui les présentera
+Un certificat autosigné est un certificat de clé publique qu'un utilisateur émet en son propre nom, par opposition à un certificat émis par une autorité de certification
+PKI : C’est une Infrastructure à clefs publiques, composée d’une autorité de certification, d’une autorité d’enregistrement et d’une autorité de dépôt.
+La PKI a pour rôle de délivrer des certificats numériques, permettant d’entreprendre des opérations cryptographique
+
+
+---
+Les principaux protocoles de routages :
+
+OSPF (Open Shortest Path First) est un protocole de routage à état de lien qui utilise l'algorithme Dijkstra pour déterminer le meilleur chemin vers une destination. Il est souvent utilisé dans les réseaux locaux étendus (LAN) et les réseaux privés virtuels (VPN).
+RIP (Routing Information Protocol) est un protocole de routage dynamique à vecteur de distance qui utilise l'algorithme de Bellman-Ford pour déterminer le meilleur chemin vers une destination. Il est souvent utilisé dans les petits réseaux locaux (LAN) et dans les réseaux sans fil (WLAN).
+EIGRP (Enhanced Interior Gateway Routing Protocol) : est un protocole de routage à vecteur de distance qui utilise l'algorithme de Bellman-Ford  qui combine les avantages des protocoles de vecteur de distance et à état de lien  pour déterminer le meilleur chemin vers une destination. Il est souvent utilisé pour connecter des réseaux distants.*
+BGP (Border Gateway Protocol) : est un protocole de routage utilisé pour connecter des réseaux autonomes (AS) entre eux. Il est souvent utilisé pour connecter des réseaux d'entreprise à des fournisseurs de services Internet.
+
+Le routage statique est une méthode où les routes sont configurées manuellement sur chaque routeur,
+Le routage dynamique est une méthode ou les routes sont automatiquement ajoutées ou mises à jour en fonction des changements dans le réseau.
+
+Avantage de OSPF: prend en charge une plus grande échelle de réseau avec une meilleure évolutivité, ce qui en fait un choix plus adapté pour les réseaux de grande taille. De plus, OSPF offre des mécanismes sophistiqués de détection des pannes et de convergence rapide, ce qui réduit les temps d'indisponibilité du réseau en cas de défaillance. Enfin, OSPF prend en charge la mise en place de différents domaines de routage, ce qui permet une gestion plus flexible et granulaire du réseau.
+---
+
+ITIL (Information Technology Infrastructure Library) est un ensemble d'ouvrages recensant les bonnes pratiques du management du système d'information.
+
+Le but de la CNIL et du RGPD est de protéger les données personnelles des individus et de garantir leurs droits en termes de protection de la vie privée.
+
+La CNIL (Commission Nationale de l'Informatique et des Libertés) est une autorité administrative indépendante française qui est chargée de veiller à ce que l’informatique soit au service du citoyen et qu’elle ne porte atteinte ni à l’identité humaine, ni aux droits de l’homme, ni à la vie privée, ni aux libertés individuelles ou publiques. qui a pour mission de protéger les droits et libertés des personnes en matière de traitement de données à caractère personnel. Elle veille notamment à la conformité des traitements de données avec la réglementation en vigueur, notamment le RGPD (Règlement Général sur la Protection des Données).
+
+Le RGPD (Règlement général sur la protection des données) est un règlement de l'Union Européenne qui a été adopté en 2016, à pour objectif de traité les données à caractere personnel des personnes afin d'accroitre leurs protection. a pour objectif de protéger les droits et les libertés des personnes en matière de traitement de données à caractère personnel. Il s'applique à toutes les entreprises qui traitent des données personnelles, quelle que soit leur taille ou leur activité. Il établit des règles strictes pour la collecte, l'utilisation, la conservation et la transmission des données personnelles.
+
+La PSSI (Politique de Sécurité des Systèmes d'Information) est la stratégie de sécurité d'une entreprise. Cette stratégie est détaillée dans un document regroupant les règles de sécurité et le plan d'action, qui serviront à maintenir le niveau de sécurité de l'information.
+La PSSI est donc la complémentarité de la SSI (Sécurité des Systèmes d'Information).
+
+Une PSSI est mise en place pour identifier les failles et les faiblesses organisationnelles et techniques, et pour créer un plan d'action qui sécurise le tout
+
+MTBF (Mean Time Between Failures) est un indicateur de fiabilité qui mesure la durée moyenne entre deux pannes d'un équipement ou d'un système. 
+(pas important je crois)TTF: Temps avant la panne ; TTR: Temps de réparation
+Le SLA (Service Level Agreement) est un contrat spécifiant l’ensemble des services que le prestataire s’engage à fournir au client.(document qui définit la qualité de service, prestation prescrite entre un fournisseur de service et un client)
+
+--
+
+L'ICMP (Internet Control Message Protocol) est un protocole de la couche réseau utilisé par les périphériques réseau pour diagnostiquer les problèmes de communication du réseau. L'ICMP est principalement utilisé pour déterminer si les données atteignent ou non leur destination en temps voulu.
+-
+En Full duplex, les données peuvent être transmises dans les deux sens simultanément
+En Half duplex, les données ne peuvent être transmises dans un seul sens à la fois
+
+
+-- Autres protocoles : 
+SNMP (Simple Network Management Protocol) est un protocole de gestion de réseau qui permet à un administrateur de surveiller et de gérer les équipements réseau à distance. Il est souvent utilisé pour surveiller les performances et les erreurs des équipements réseau.
+
+HSRP (Hot Standby Router Protocol) : est un protocole de réseau qui permet de mettre en place un groupe de routeurs actifs et de secours pour assurer la continuité des services réseau en cas de panne d'un des routeurs. Il est plus lent que VRRP, il est proprietaire de cisco, et fonctionne avec des roles de Actif et Passif
+
+VRRP (Virtual Router Redundancy Protocol) : est un protocole de réseau similaire à HSRP qui permet de mettre en place un groupe de routeurs virtuels pour assurer la continuité des services réseau en cas de panne d'un des routeurs. Il est plus rapide que HSRP, et fonctionne avec des roles de Master et Backup
+
+LDAP (Lightweight Directory Access Protocol) : est un protocole de réseau qui permet de gérer les informations d'annuaire, comme les utilisateurs, les groupes et les objets de l'annuaire. on peut dire que LDAP agit comme une base de données pour stocker et gérer les informations d'identification des utilisateurs et d'autres informations relatives à l'annuaire.
+
+ICMP (Internet Control Message Protocol) : c'est un protoccole qui permet de diagnotiquer les problemes de communication reseau || est un protocole de réseau qui permet de gérer les messages d'erreur et les messages de contrôle pour les communications réseau.
+
+POP (Post Office Protocol) : est un protocole de réseau qui permet de récupérer les courriels d'un serveur de messagerie.
+(La principale différence entre eux est que POP télécharge les messages sur un ordinateur local et les supprime du serveur, tandis qu'IMAP permet de gérer les messages directement sur le serveur sans les télécharger.)
+IMAP (Internet Mail Access Protocol) : est un protocole de réseau similaire à POP qui permet de récupérer les courriels d'un serveur de messagerie.
+
+SMTP (Simple Mail Transfer Protocol) : est un protocole de réseau qui permet de transférer les courriels entre les serveurs de messagerie.
+
+TFTP (Trivial File Transfer Protocol) : est un protocole de réseau simplifié pour transférer des fichiers.
+
+SIP (Session Initiation Protocol) : est un protocole de réseau qui permet de mettre en place, de modifier et de terminer les sessions de communication, comme les appels téléphoniques et les vidéoconférences.
+
+RDP (Remote Desktop Protocol) : est un protocole de réseau qui permet d'accéder à un ordinateur à distance.
+
+NTP (Network Time Protocol) : est un protocole de réseau qui permet de synchroniser l'horloge des ordinateurs dans un réseau.
+
+SSH (Secure Shell) : est un protocole de réseau qui permet de se connecter à un ordinateur à distance en utilisant une connexion sécurisée.
+
+HTTP (Hypertext Transfer Protocol) : est un protocole de réseau qui permet de transférer les données sur Internet pour les pages web.
+
+FTP (File Transfer Protocol) : est un protocole de réseau qui permet de transférer des fichiers entre ordinateurs.
+
+TCP (Transmission Control Protocol) : est un protocole de réseau qui garantit la fiabilité de la transmission des données en utilisant des numéros de séquence et des accusés de réception.
+
+UDP (User Datagram Protocol) : est un protocole de réseau qui ne garantit pas la fiabilité de la transmission des données mais est plus rapide
+
+--
+Normes de chiffrement:
+Les normes de chiffrement sont des algorithmes utilisés pour protéger les données en les chiffrant. Il existe de nombreuses normes de chiffrement, comme AES (Advanced Encryption Standard), RSA et SSL (Secure Sockets Layer) / TLS (Transport Layer Security). Ces normes permettent de sécuriser les données en transit et en repos.
+
+Chiffrement ASYMETRIQUE : RSA, DSA... === Clé publique ET privé |  2048 bit ou plus de taille de clé 
+Chiffrement Symetrique :  AES, DES... === Clé de chiffrement ( clé session ) | 128 à 256 bit de taille de clé ||| 
+
+Fonction de hashage = produisent une empreinte numérique de taille fixe, appelée "hash" ; ex : SHA 3, BLAKE3, MD5... Elles permettent de verifier l'integrité des données, c'est-à-dire de détecter si elles ont été modifiées ou altérées de quelque manière que ce soit.
+
+RSA: Rivest-Shamir-Adleman
+DSA: Digital Signature Algorithm
+AES: Advanced Encryption Standard
+DES: Data Encryption Standard
+--
+
+
+
+Numéro de port : 
+
+HTTP (Hypertext Transfer Protocol) : port 80
+HTTPS (HTTP Secure) : port 443
+FTP (File Transfer Protocol) : port 21 (commandes) et 20 (transfert de données)
+SSH (Secure Shell) : port 22
+Telnet : port 23
+DNS (Domain Name System) : port 53
+DHCP (Dynamic Host Configuration Protocol) : port 67 (serveur) et 68 (client)
+SNMP (Simple Network Management Protocol) : port 161 (requêtes) et 162 (alertes)
+SMTP (Simple Mail Transfer Protocol) : port 25
+POP3 (Post Office Protocol version 3) : port 110
+IMAP (Internet Mail Access Protocol) : port 143
+LDAP (Lightweight Directory Access Protocol) : port 389
+NTP (Network Time Protocol) : port 123
+Syslog : port 514
+
+-
+saas paas iaas : service de cloud managé
+SaaS (Software as a Service) : (modèle d'exploitation commerciale des logiciels ) il s'agit d'un modèle où le fournisseur de services fournit des applications logicielles via internet. Les utilisateurs peuvent accéder à ces applications via un navigateur web et n'ont pas besoin de gérer l'infrastructure sous-jacente. Par exemple, Gmail est un service SaaS de Google où les utilisateurs peuvent accéder à leur messagerie via un navigateur web sans avoir à gérer l'infrastructure serveur.
+
+PaaS (Platform as a Service) : il s'agit d'un modèle où le fournisseur de services fournit une plateforme qui permet aux développeurs de déployer, d'exécuter et de gérer leurs applications sans avoir à gérer l'infrastructure sous-jacente. Par exemple, Heroku est une plateforme PaaS qui permet aux développeurs de déployer et de gérer leurs applications web.
+
+IaaS (Infrastructure as a Service) : il s'agit d'un modèle où le fournisseur de services fournit une infrastructure informatique, telle que des serveurs, des machines virtuelles et du stockage, via internet. Les utilisateurs peuvent déployer et gérer des applications sur cette infrastructure sans avoir à gérer l'infrastructure physique sous-jacente. Par exemple, Amazon Web Services (AWS) est un service IaaS où les utilisateurs peuvent déployer des instances de machines virtuelles et de stockage sur le cloud AWS.
+
+En résumé, SaaS est un modèle où le fournisseur de services fournit une application, PaaS est un modèle où le fournisseur de services fournit une plateforme de développement, et IaaS est un modèle où le fournisseur de services fournit une infrastructure informatique.
